@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+class Test
+{    int n;   
+    int ar[n]; 
+    public:
+        void print();
+        void reverse();
+        void input();
+};
+void Test::input()
+{   cin >> n;
+    for(int i=0;i<n;i++)
+        cin >> ar[i];
+}
+void Test::reverse()
+{          
+
+
+}
+void Test::print()
+{   for(int i=0;i!=NULL;i++)
+        cout << ar[i];
+}
+int main()
+{   Test t;
+    t.input();
+    t.print();
+
+
+}
